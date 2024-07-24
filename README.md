@@ -34,6 +34,11 @@ GAIN Supply is a fitness supplies store. It supplies a range of products from su
 
 #### Typical Users
 
+The main users of the site will be:
+* General 
+* Shopper
+* Store
+
 #### User Stories
 
 ### Design
@@ -54,11 +59,11 @@ GAIN Supply is a fitness supplies store. It supplies a range of products from su
 
 ### User Stories
 
-#### Casual Readers
+#### General User
 
-#### Reading Enthusiasts
+#### Shopper
 
-### Manual Testing
+### Store 
 
 ### Validator Testing
 
