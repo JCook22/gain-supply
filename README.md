@@ -63,7 +63,7 @@ The main users of the site will be:
 
 #### Shopper
 
-### Store 
+#### Store 
 
 ### Validator Testing
 
