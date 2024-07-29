@@ -105,7 +105,8 @@ HTML, CSS, JavaScript, Python
 
 ### Content
 
-All clothing products for this site have been gathered from: https://www.adidas.co.uk/. 
+- All clothing products for this site have been gathered from: https://www.adidas.co.uk/.
+- All supplements and healthy snacks for this site have been gathered from: https://uk.esn.com/. 
 
 ### Media
 
