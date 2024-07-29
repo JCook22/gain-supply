@@ -103,6 +103,10 @@ HTML, CSS, JavaScript, Python
 
 ## Credits
 
+### Content
+
+All clothing products for this site have been gathered from: https://www.adidas.co.uk/. 
+
 ### Media
 
 ### Code
