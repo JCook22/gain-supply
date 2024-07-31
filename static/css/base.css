@@ -75,6 +75,11 @@ body {
     color: white;
 }
 
+a.category-badge > span.badge:hover {
+    background: black !important;
+    color: lightskyblue !important; 
+}
+
 .browse-button:hover,
 .browse-button:active,
 .browse-button:focus,
