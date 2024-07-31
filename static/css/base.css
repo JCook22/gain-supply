@@ -70,6 +70,10 @@ body {
     color: white;
 }
 
+.btn-outline-black {
+    border: 1px solid black;
+}
+
 .btn-blue {
     background: lightskyblue;
     color: white;
@@ -88,6 +92,10 @@ a.category-badge > span.badge:hover {
 .btn-black:focus {
     background: black;
     color: white;
+}
+
+.btn-blue:hover {
+    font-weight: bold;
 }
 
 /* Media Queries */
