@@ -52,16 +52,26 @@ body {
     color: lightskyblue;
 }
 
+.index-header {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
 /* buttons */
 
 .browse-button {
     background: black;
-    color: white;
+    color: lightskyblue;
     min-width: 260px;
 }
 
 .btn-black {
     background: black;
+    color: white;
+}
+
+.btn-blue {
+    background: lightskyblue;
     color: white;
 }
 
