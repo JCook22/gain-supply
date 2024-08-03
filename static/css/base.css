@@ -36,6 +36,22 @@ body {
     z-index: -1;
 }
 
+.message-container {
+    position: fixed;
+    bottom: 72px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 /* header */
 
 .logo-font {
