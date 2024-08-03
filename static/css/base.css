@@ -98,6 +98,14 @@ a.category-badge > span.badge:hover {
     font-weight: bold;
 }
 
+.link-btn {
+    cursor: pointer;
+}
+
+.update-link {
+    color: lightskyblue;
+}
+
 /* Media Queries */
 
 @media (min-width: 992px) {
