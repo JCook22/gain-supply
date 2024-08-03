@@ -34,7 +34,6 @@ class Order(models.Model):
     def __str__(self):
         return self.order_number
 
-
     def update_total(self):
         self.order_total  = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total_sum']
         if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
@@ -44,8 +43,9 @@ class Order(models.Model):
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
+
 class OrderLineItem(models.Model):
-    order = models.ForeignKey(Order, null=False, blank=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
+    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
     product_size = models.CharField(max_length=2, null=True, blank=True)
     quantity = models.IntegerField(null=False, blank=False, default=0)
