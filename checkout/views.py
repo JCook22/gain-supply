@@ -48,6 +48,7 @@ def checkout(request):
         order_form = Orderform(form_data)
         if order_form.is_valid():
             order = order_form.save()
+            pid = request.POST.get('client_secret').split('_secret')[0]
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
