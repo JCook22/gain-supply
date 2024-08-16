@@ -1,0 +1,24 @@
+Thank you for your order {{ order.full_name }},
+
+You are receiving this email as confirmation of your order from Gain Supply. Your order details can be found below.
+
+Order Number: {{ order.order_number }}
+Date: {{ order.date }}
+
+Order Total: £{{ order.order_total }}
++ Delivery: £{{ order.delivery_cost }}
+Grand Total: £{{ order.grand_total }}
+
+Your order has been dispatched to:
+{{ order.street_address1 }}
+{{ order.town_or_city }}
+{{ order.county }}
+{{ order.country }}
+
+If you have any enquiries about your order, don't hesitate to contact us at {{ contact_email }}.
+
+Thanks again for choosing us for your fitness-supplier. Tell us how we did and you could be in with a chance to win £50 store credit!
+
+Best Regards,
+The Gain Supply Team
+
