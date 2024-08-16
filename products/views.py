@@ -7,7 +7,6 @@ from .forms import ProductForm
 
 
 def all_products(request): 
-    
     products = Product.objects.all()
     query = None
     categories = None
@@ -67,7 +66,16 @@ def product_detail(request, product_id):
 
 
 def add_product(request):
-    form = ProductForm()
+    if request.method == "POST":
+        form = ProductForm(request.POST, request.FILES)
+        if form_is_valid():
+            form.save()
+            messages.success(request, 'Product added to database successfully.')
+            return redirect(reverse('add_product'))
+        else:
+            messages.error(request, 'Attempt to add product has failed! Please check the form data for errors.')
+    else:
+        form = ProductForm()
     template = 'products/add_product.html'
     context = {
         'form': form,
