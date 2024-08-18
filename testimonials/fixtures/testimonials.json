@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "John Doe",
+            "customer_age": 34,
+            "customer_county": "Norfolk",
+            "rating": 4.8,
+            "headline": "Excellent Service!",
+            "body": "The service was outstanding, and the staff went above and beyond to ensure my satisfaction. Highly recommend!"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "Jane Smith",
+            "customer_age": 29,
+            "customer_county": "Durham",
+            "rating": 4.5,
+            "headline": "Great Experience",
+            "body": "I had a great experience from start to finish. The team was professional and friendly, and the results exceeded my expectations."
+        }
+    },
+    {
+        "pk": 3,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "Michael Johnson",
+            "customer_age": null,
+            "customer_county": null,
+            "rating": 4.2,
+            "headline": "Good but Room for Improvement",
+            "body": "Overall, I was satisfied with the service, but there were a few areas that could be improved. However, the staff was receptive to feedback."
+        }
+    },
+    {
+        "pk": 4,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "Emily Davis",
+            "customer_age": 45,
+            "customer_county": "Hampshire",
+            "rating": 5.0,
+            "headline": "Outstanding Experience!",
+            "body": "This was the best service I've ever received! Every detail was handled with care, and I felt valued as a customer."
+        }
+    },
+    {
+        "pk": 5,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "David Wilson",
+            "customer_age": 52,
+            "customer_county": "Surrey",
+            "rating": 3.9,
+            "headline": "Satisfactory but Could Improve",
+            "body": "The service was good overall, but there were a few delays that impacted my experience. Still, I appreciate the effort made by the team."
+        }
+    },
+    {
+        "pk": 6,
+        "model": "testimonials.testimonial",
+        "fields": {
+            "customer_name": "Sophia Brown",
+            "customer_age": 38,
+            "customer_county": "Yorkshire",
+            "rating": 4.7,
+            "headline": "Highly Recommend!",
+            "body": "I was very pleased with the service provided. The team was efficient, and the results were fantastic. I will definitely be returning in the future."
+        }
+    }
+]
