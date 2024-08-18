@@ -1,6 +1,6 @@
 # GAIN Supply
 
-GAIN Supply is a fitness supplies store. It supplies a range of products from supplements and healthy food to fitness equipment. The site will feature a subscribe and save method for consumable products. It will be beneficial to customers as it aims to provide a convenient place to find all of the supplies they need, rather than shop through multiple different sites. 
+GAIN Supply is a fitness supplies store. It supplies a range of products from supplements and healthy food to fitness equipment. It will be beneficial to customers as it aims to provide a convenient place to find all of the supplies they need, rather than shop through multiple different sites. Users will be able to create profiles, storing their shipping information if they choose to and view their order history. Admin users can add, edit and delete products. Admins can also add to customer testimonials or remove them from the testimonials page.
 
 ## Table of Contents
 
@@ -36,8 +36,8 @@ GAIN Supply is a fitness supplies store. It supplies a range of products from su
 
 The main users of the site will be:
 * General 
-* Shopper
-* Store
+* Shoppers
+* Store Admin
 
 #### User Stories
 
@@ -61,9 +61,9 @@ The main users of the site will be:
 
 #### General User
 
-#### Shopper
+#### Shoppers
 
-#### Store 
+#### Store Admin
 
 ### Validator Testing
 
@@ -92,6 +92,7 @@ HTML, CSS, JavaScript, Python
 - Font Awesome - Used to import icons.
 - Chrome Developer Tools - Used to test site responsiveness and design features.
 - Materialize CSS - Used to speed up the design of the site.
+- Django - Used to streamline the process of creating the site.
 
 ## Deployment 
 
@@ -109,6 +110,9 @@ HTML, CSS, JavaScript, Python
 - All supplements and healthy snacks for this site have been gathered from: https://uk.esn.com/. 
 
 ### Media
+
+- All clothing product images for this site have been gathered from: https://www.adidas.co.uk/.
+- All supplements and healthy snacks images for this site have been gathered from: https://uk.esn.com/. 
 
 ### Code
 
