@@ -10,18 +10,29 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font index-header">
-                    Welcome to GAIN Supply, your one stop shop on the way to greatness.
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="browse-button btn btn-lg rounded-0 text-uppercase py-3">BROWSE</a>
-                    </h4>
-                </div>
+<div class="index-container h-100">
+    <div class="row h-50">
+        <div class="col-7 col-md-6 my-auto ml-auto">
+            <p class="display-1 logo-font index-header">
+                Welcome to GAIN Supply, your one stop shop on the way to greatness.
+            </p>
+            <div class="text-center">
+                <span>
+                    <a href="{% url 'products' %}" class="btn btn-lg btn-outline-black btn-blue py-3 rounded-0">Browse Products</a>
+                </span>
             </div>
         </div>
     </div>
+    <div class="row h-50">
+        <div class="col-7 col-md-6 my-auto ml-auto">
+            <p class="display-1 logo-font index-header">
+                Why use Gain Supply? Take a look at these testimonials from some of our customers.
+            </p>
+            <div class="text-center">
+                <span>
+                    <a href="{% url 'testimonials' %}" class="btn btn-lg btn-outline-black rounded-0 btn-blue py-3">Testimonials</a>
+                </span>
+            </div>
+    </div>
+</div>
 {% endblock %}

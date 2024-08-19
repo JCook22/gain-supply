@@ -36,6 +36,10 @@ body {
     z-index: -1;
 }
 
+.index-container {
+    margin-top: 136px;
+}
+
 /* matches the search bar placeholder to the other fields */
 
 input[name='q']::placeholder {
@@ -130,6 +134,7 @@ input[name='q']::placeholder {
 .index-header {
     color: whitesmoke;
     font-weight: 600;
+    font-size: 3rem;
 }
 
 /* buttons */
@@ -266,7 +271,7 @@ a.category-badge > span.badge:hover {
 
 /* Media Queries */
 
-@media (min-width: 992px) {
+@media(min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
