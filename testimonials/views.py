@@ -8,5 +8,5 @@ def all_testimonials(request):
         'testimonials': testimonials,
     }
 
-    return render(request, 'testimonials/testimonials.html')
+    return render(request, 'testimonials/testimonials.html', context)
     
