@@ -88,6 +88,37 @@ The main demographic for the site is shoppers looking to make a purchase.
 
 ### Existing Features
 
+#### UX Features
+
+1. Consistent Experience Across Different Pages and Devices
+2. Home Page
+3. View Products
+4. Filtering, Searching and Sorting Products
+5. View Testimonials
+6. Pop Up Messages 
+
+#### E-Commerce Features
+
+1. Shopping Bag
+2. Checkout 
+3. Order Confirmation
+4. Quantity and Size Selectors
+
+#### Profile Features
+
+1. User Registration
+2. Log In
+3. Log Out
+4. Profile Page
+5. Order History 
+
+#### Admin Features
+
+1. Accounts
+2. Add Product
+3. Edit Product
+4. Delete Product 
+
 ### Possible Future Features
 
 ## Testing
