@@ -121,15 +121,19 @@ The main demographic for the site is shoppers looking to make a purchase.
 
 ### Possible Future Features
 
+1. Ability for admin to add, edit and delete testimonials. Unfortunately due to time constraints the testimonials can not be changed. If there was to be a future update to the site it would be a high priority feature so that admins can update them as new testimonials came in.
+2. To extend the Testimonial functionality further it would be good to provide a form for users to send in their own Testimonials, which Admin could pick from to display.
+3. Finally, building on Testimonials more there could be a 'Most Recent' section which automatically displays the 10 most recently submitted Testimonials for Users to look at. 
+
 ## Testing
 
 ### User Stories
 
-#### General User
+#### Shoppers 
 
 #### Shoppers
 
-#### Store Admin
+#### General
 
 ### Validator Testing
 
@@ -182,5 +186,5 @@ HTML, CSS, JavaScript, Python
 
 ### Code
 
-
-
+- The core functionality for this site is largely based on CodeInstitute's Boutique Ado project.
+- Special thanks to my mentor Brian Macharia for all his help with building and troubleshooting aspects of my project.
