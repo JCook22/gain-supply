@@ -82,6 +82,8 @@ The main demographic for the site is shoppers looking to make a purchase.
 
 #### Icons
 
+All icons for the site have been taken from [Fontawesome](https://fontawesome.com/).
+
 #### Wireframes
 
 ## Features
@@ -163,6 +165,7 @@ HTML, CSS, JavaScript, Python
 - Chrome Developer Tools - Used to test site responsiveness and design features.
 - Materialize CSS - Used to speed up the design of the site.
 - Django - Used to streamline the process of creating the site.
+- Stripe - Used for handling payments.
 
 ## Deployment 
 
