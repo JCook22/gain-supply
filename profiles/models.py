@@ -24,3 +24,17 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
     if created:
         UserProfile.objects.create(user=instance)
     instance.userprofile.save()
+
+
+class EmployeeProfile(models.Model):
+    full_name = models.CharField(max_length=50, null=False, blank=False)
+    role = models.CharField(max_length=40, blank=False, null=False)
+    email = models.EmailField(max_length=254, null=False, blank=False)
+    telephone_number = models.CharField(max_length=20, null=False, blank=False)
+    street_address1 = models.CharField(max_length=80, null=False, blank=False)
+    town_or_city = models.CharField(max_length=60, null=False, blank=False)
+    county = models.CharField(max_length=80, null=False, blank=False)
+    postcode = models.CharField(max_length=20, null=False, blank=False)
+
+    def __str__(self):
+        return self.full_name
