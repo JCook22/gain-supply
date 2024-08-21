@@ -17,3 +17,5 @@ urlpatterns = [
 
 handler404 = 'gain_supply.views.handler404'
 handler500 = 'gain_supply.views.handler500'
+handler403 = 'gain_supply.views.handler403'
+handler405 = 'gain_supply.views.handler405'
