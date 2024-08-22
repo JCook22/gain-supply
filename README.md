@@ -103,6 +103,18 @@ The next two icons can be found on the product cards when browsing products on t
 1. Item tag (fas fa-tag): The tag icon was selected for the price tag icon as similarly to most icons on the site it's purpose is easily recognisable and familiar to users already. Unlike some of the icons it is also recognisable from shopping in person. 
 2. Rating star (fas fa-star): The star icon was chosen for the rating section because it is very common to hear things rated out of 5 or 10 stars. This helps users instantly recognise that the number represents a star-rating.
 
+The next three icons can be found on the product details page.
+
+![Product-detail-icons](media/readme/icons/Product-detail-icons.png)
+1. Minus icon (fas fa-minus): The minus symbol was selected for the site because it is globally recognised and looks good in the quantity selector.
+2. Plus icon (fas fa-plus): The plus symbol was selected for the site because it is globally recognised and looks good in the quantity selector alongside the minus icon.
+3. Back icon (fas fa-chevron-left): The chevron left icon was chosen to represent all links that direct the user backwards through the process of navigating the site. Here it can be seen in the Keep Shopping button. This helps give the buttons context and makes them more obvious to the user so they can easily find them.
+
+The next icon is only found on error pages.
+
+![Back-to-products-icon](media/readme/icons/back-to-products-icon.png)
+1. Shopping basket (fa-solid fa-basket-shopping): This icon is found on error pages and helps give the user an alternative option to going back to the home page. The meaning of the basket is quite clear and it was selected because it is noticeably different to the bag icon and that will help prevent users from getting confused between the two. 
+
 #### Wireframes
 
 ## Features
