@@ -90,6 +90,11 @@ Open Sans was chosen for the body because it is easy to read and fairly simplist
 
 All icons for the site have been taken from [Fontawesome](https://fontawesome.com/).
 
+In the navbar you can find the first 3 icons.
+
+![Navbar-icons](media/readme/icons/Navbar-icons.png)
+1. Shopping bag (fas fa-shopping-bag): This icon was selected for the shopping bag element of the site because it's purpose is easily recognisable and familiar to users already. When there are products in the bag the icon changes colour, this makes it easier for customers to see if they have got any products selected yet.
+
 #### Wireframes
 
 ## Features
