@@ -80,6 +80,12 @@ The main demographic for the site is shoppers looking to make a purchase.
 
 #### Typography
 
+There are 2 main fonts used across the whole of the site, they have been selected from [Google-Fonts](https://fonts.google.com/). These are Oswald and Open Sans. 
+
+Oswald was selected for the company logo as it has a nice clean look that suits bold text and headings well. To keep things consistent and improve user experience the headings for each page also use the Oswald font. This helps make the site look professional.
+
+Open Sans was chosen for the body because it is easy to read and fairly simplistic. It matches quite well with the Oswald font used for the logo and headings. The difference between the two fonts helps people search through the site faster and find what they are looking for easier.
+
 #### Icons
 
 All icons for the site have been taken from [Fontawesome](https://fontawesome.com/).
