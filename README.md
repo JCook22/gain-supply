@@ -142,12 +142,11 @@ Additional colours:
 
 #### UX Features
 
-1. Consistent Experience Across Different Pages and Devices
-2. Home Page
-3. View Products
-4. Filtering, Searching and Sorting Products
-5. View Testimonials
-6. Pop Up Messages 
+1. Home Page
+2. View Products
+3. Filtering, Searching and Sorting Products
+4. View Testimonials
+5. Pop Up Messages 
 
 #### E-Commerce Features
 
