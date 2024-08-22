@@ -5,13 +5,16 @@ from products.models import Product
 
 
 def view_bag(request):
-
-
+    """
+    Show the user their shopping bag
+    """
     return render(request, 'bag/bag.html')
 
 
 def add_to_bag(request, item_id):
-
+    """
+    Add product to the shopping bag, including size if needed.
+    """
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -44,8 +47,9 @@ def add_to_bag(request, item_id):
     
 
 def adjust_bag(request, item_id):
-
-
+    """
+    Updates the quantity of products in the shopping bag
+    """
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     size = None
@@ -76,7 +80,9 @@ def adjust_bag(request, item_id):
 
 
 def remove_from_bag(request, item_id):
-
+    """
+    Removes items from the shopping bag
+    """
     try:
         product = get_object_or_404(Product, pk=item_id)
         size = None
