@@ -8,6 +8,9 @@ class OrderLineItemAdminInline(admin.TabularInline):
 
 
 class OrderAdmin(admin.ModelAdmin):
+    """
+    Model for admin users to view orders
+    """
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date', 'delivery_cost', 
