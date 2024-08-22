@@ -3,6 +3,9 @@ from .models import Testimonial
 
 
 class TestimonialAdmin(admin.ModelAdmin):
+    """
+    Adds testimonials to the admin panel.
+    """
     list_display = (
         'customer_name',
         'rating',

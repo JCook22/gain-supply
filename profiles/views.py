@@ -8,6 +8,9 @@ from .forms import UserProfileForm
 
 @login_required
 def profile(request):
+    """
+    Allows users to visit their profile page if they register
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -31,6 +34,9 @@ def profile(request):
 
 @login_required
 def order_history(request, order_number):
+    """ 
+    Displays to the user a list of their previous orders if they have any
+    """
     order = get_object_or_404(Order, order_number=order_number)
     messages.info(request, (
         f'This is order confirmation for order number {order_number}.'
