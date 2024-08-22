@@ -124,6 +124,15 @@ The next three icons are part of the checkout process.
 
 ![Loading-spinner](media/readme/icons/Loading-spinner-icon.png)
 
+#### Colours
+
+The following colours have been used for the colour scheme of the site:
+1. #87cefa - Light Sky Blue: This was selected as the company colour scheme, featuring in the logo and on many of the buttons across the site. Typically where the colour is used you while have white text instead of black as it is more visually appealing.
+2. #ffffff - White: White was chosen to be used as the text colour for all blue buttons as it pairs much better with the light sky blue than black does.
+3. #000000 - Black: Black is used for all headings or text against a plain white background, which makes up the majority of pages. This is to make sure that the user doesn't find it hard to see any of the content.
+
+Additional colours:
+#dc3545 - Red: Red is found only on warning messages and delete functions. This is to alert the user that they should be careful to avoid making a mistake and try reduce accidents.
 
 #### Wireframes
 
@@ -174,9 +183,9 @@ The next three icons are part of the checkout process.
 
 #### Shoppers 
 
-#### Shoppers
-
 #### General
+
+#### Admin
 
 ### Validator Testing
 
