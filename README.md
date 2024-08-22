@@ -115,6 +115,16 @@ The next icon is only found on error pages.
 ![Back-to-products-icon](media/readme/icons/back-to-products-icon.png)
 1. Shopping basket (fa-solid fa-basket-shopping): This icon is found on error pages and helps give the user an alternative option to going back to the home page. The meaning of the basket is quite clear and it was selected because it is noticeably different to the bag icon and that will help prevent users from getting confused between the two. 
 
+The next three icons are part of the checkout process.
+
+![Checkout-icons](media/readme/icons/Checkout-icons.png)
+1. Lock (fas fa-lock): The lock icon was selected for the Secure Checkout button because it hopes to make the user feel confident that their payment information is safe and secure. 
+2. Exclamation circle (fas fa-exclamation-circle): The exclamation circle was chosen for the payment warning as it is a small but very noticeable icon, especially when paired with the bright red colour. This is useful as it provides the user with one last warning before they pay of how much their order will cost.
+3. Spinning processing wheel (fas fa-3x fa-sync-alt fa-spin): This icon was selected for the order processing spinning wheel as it provides a clean way to communicate to the user that the order is being finalised. See below.
+
+![Loading-spinner](media/readme/icons/Loading-spinner-icon.png)
+
+
 #### Wireframes
 
 ## Features
