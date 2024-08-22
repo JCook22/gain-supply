@@ -97,7 +97,11 @@ In the navbar you can find the first 3 icons.
 2. User icon (fas fa-user): This icon was selected for the user profile element of the site because similarly to the shopping bag it's purpose is easily recognisable and familiar to users already.
 3. Search icon (fas fa-search): This icon was selected for the user search feature of the site because similarly to the shopping bag and user icon it's purpose is easily recognisable and familiar to users already. The icon looks slightly different on mobile as it looks better matching the other icons due to lack of space.
 
+The next two icons can be found on the product cards when browsing products on the site.
 
+![Prouduct-card-icons](media/readme/icons/Product-card-icons.png)
+1. Item tag (fas fa-tag): The tag icon was selected for the price tag icon as similarly to most icons on the site it's purpose is easily recognisable and familiar to users already. Unlike some of the icons it is also recognisable from shopping in person. 
+2. Rating star (fas fa-star): The star icon was chosen for the rating section because it is very common to hear things rated out of 5 or 10 stars. This helps users instantly recognise that the number represents a star-rating.
 
 #### Wireframes
 
