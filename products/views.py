@@ -8,6 +8,9 @@ from .forms import ProductForm
 
 
 def all_products(request): 
+    """
+    Shows the user all products and allows them to sort or filter them
+    """
     products = Product.objects.all()
     query = None
     categories = None
@@ -56,7 +59,9 @@ def all_products(request):
 
 
 def product_detail(request, product_id): 
-    
+    """
+    Shows the user the details of a selected product
+    """
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
@@ -68,6 +73,9 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
+    """ 
+    Allows admin users to add new products to site
+    """
     if not request.user.is_superuser:
         messages.error(request, 'You are not authorised to do that.')
         return redirect(reverse('home'))
@@ -91,6 +99,9 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
+    """ 
+    Allows admin users to edit products on the site
+    """
     if not request.user.is_superuser:
         messages.error(request, 'You are not authorised to do that.')
         return redirect(reverse('home'))
@@ -118,6 +129,9 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
+    """ 
+    Allows admin users to delete products on the site
+    """
     if not request.user.is_superuser:
         messages.error(request, 'You are not authorised to do that.')
         return redirect(reverse('home'))

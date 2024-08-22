@@ -2,7 +2,9 @@ from django.db import models
 
 
 class Category(models.Model):
-
+    """
+    Model for Category of Products
+    """
     class Meta:
         verbose_name_plural = "Categories"
 
@@ -16,6 +18,9 @@ class Category(models.Model):
         return self.friendly_name
 
 class Product(models.Model):
+    """
+    Model for Products
+    """
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=12, null=True, blank=True)
     name = models.CharField(max_length=100)
