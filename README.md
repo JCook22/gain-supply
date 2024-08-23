@@ -143,30 +143,95 @@ Additional colours:
 #### UX Features
 
 1. Home Page
+
     ![Home-page](media/readme/features/Home-page.png)
     This is the home page for the site. It has been created with a eye-catching blue colour to fit well with the theme throughout. Here the users can also easily start navigating through the site with lots of options to choose from. On top of the usual navbar options there are 2 call to action buttons, one to entice new users to browse products and the other to look at testimonials.
+
 2. View Products & Product Details
+
     ![View-products](media/readme/features/View-products.png)
+
     This is the products view. It is designed to show less products per row when the user is on smaller devices. Any user can browse the products and click on them for more details or to add them to the shopping bag. This meets the first of the Shopper User Stories, being able to view the products. You can see the individual product details page below, which meets the second of the Shopper User Stories which is viewing the product details.
+
     ![Product-detail](media/readme/features/Product-detail.png)
+
+    The product details page allows you to select the size and quantity of the item you would like. This addresses Shopper User Story 10.
+
 3. Filtering, Searching and Sorting Products
+
     ![Filter-search-sort](media/readme/features/Filter-search-sort.png)
+
     Here on the products related views you can find the filter, searching and sorting functionality of the site. Users have plenty of options to choose from to decide how they would like to browse. The search bar can be found at the top of the page. Search functionality meets the requirements of Shopper User Stories number 8 and 9. You can see a search result below.
+
     ![Search-results](media/readme/features/Search-results.png)
+
+    The sort feature helps the site meet the requirements of Shopper User Stories 3, 5, 6 and 7. Here you can select to sort by price, rating, name or category. The products top navigation allows you to sort through the different categories, shown below.
+
+    ![Sort-by](media/readme/features/Sort-by.png)
+    ![Category-dropdown-sort-2](media/readme/features/Category-dropdown-sort-2.png)
+    ![Category-dropdown-sort](media/readme/features/Category-dropdown-sort.png)
+    ![Special-offers](media/readme/features/Special-offers.png)
+
+
 4. View Testimonials
+
+    ![Testimonials](media/readme/features/Testimonials.png)
+
+    This is the testimonials page. Here new visitors to have a chance to read the reviews left by previous customers. Unfortunately at this time users can not add them but this functionality could be added in a future update. This is good for the user experience because people can gain confidence in the site before placing an order.
+
 5. Pop Up Messages 
+
+    ![Example-pop-up](media/readme/features/Success-toast.png)
+
+    This is an example of the pop up toasts that appear on the site. They are also used for a range of other features, such as error messages and order confirmation. These improve the experience of the user because it makes it clear when you have performed certain actions by providing feedback. 
 
 #### E-Commerce Features
 
 1. Shopping Bag
-2. Checkout 
+
+    ![Shopping-bag-icon](media/readme/features/Bag-icon.png)
+    ![Shopping-bag-with-products](media/readme/features/Bag-with-products.png)
+
+    The shopping bag can be accessed from clicking on the bag icon. When empty the icon is black but if a user adds any products it will change colour, making it easy to know if you have added things. This addresses the need outlined in Shopper User Story number 4.
+
+    ![Shopping-bag-page](media/readme/features/Shopping-bag-page.png)
+
+    This is the shopping bag page. This allows users to see the products they have selected, along with their size, price and quantities. The user can also see the total price of their order, remove items or adjust the quantities. This fufills the criteria from Shopper User Stories 11 and 12.
+
+2. Checkout
+
+    ![Checkout-page](media/readme/features/Checkout-page.png)
+
+    This is the checkout page. Here users can fill in the form with their personal, shipping and payment information. The secure checkout is provided by stripe. The user is prompted to register for an account if they are not logged in, if they are it will ask the user if they would like to save their details for next time. This meets the requirements of Shopper User Stories 13 and 14.
+
 3. Order Confirmation
+
+    ![Order-Confirmation](media/readme/features/Order-confirmation.png)
+
+    This is the order confirmation page. This shows the user the details of their order so they can check it over and make sure there are no mistakes, it also helps them know their order has been successful. The pop up message lets the user know that a copy of the order confirmation has been sent to the email address they provided in the form. This meets the requirements from Shopper User Stories 15 and 16.
+
 4. Quantity and Size Selectors
+
+    ![Quantity-size-selectors](media/readme/features/Quantity-size-select.png)
+
+    These are the quantity and size selectors from the product detail page. These allow users to easily choose the size and quantity of a product they would like. This is a requested feature from Shopper User Story 10.
 
 #### Profile Features
 
 1. User Registration
+
+    ![User-registration](media/readme/features/Registration-form.png)
+
+    This is the user registration form. It is designed to be short so that the user is more inclined to fill it out. Once they have their account is when they fill in the rest of their details. Once submitted it will send a confirmation email to the account provided in the form with a confirmation link to verify their email. This meets the needs from General User Story 1 and 4.
+
 2. Log In
+
+    ![Log-in-form](media/readme/features/Log-in-form.png)
+
+    This is the log in form. The user must enter their Username and Password and submit the form. There is a Remember Me option so the user can store their details for faster access next time. If the user has forgot their password they can click the Forgot Password link. There is a button to go Home if the user doesn't want to log in. This addresses the needs from General User Story 2 and 3.
+
+
+
 3. Log Out
 4. Profile Page
 5. Order History 
