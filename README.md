@@ -143,8 +143,16 @@ Additional colours:
 #### UX Features
 
 1. Home Page
-2. View Products
+    ![Home-page](media/readme/features/Home-page.png)
+    This is the home page for the site. It has been created with a eye-catching blue colour to fit well with the theme throughout. Here the users can also easily start navigating through the site with lots of options to choose from. On top of the usual navbar options there are 2 call to action buttons, one to entice new users to browse products and the other to look at testimonials.
+2. View Products & Product Details
+    ![View-products](media/readme/features/View-products.png)
+    This is the products view. It is designed to show less products per row when the user is on smaller devices. Any user can browse the products and click on them for more details or to add them to the shopping bag. This meets the first of the Shopper User Stories, being able to view the products. You can see the individual product details page below, which meets the second of the Shopper User Stories which is viewing the product details.
+    ![Product-detail](media/readme/features/Product-detail.png)
 3. Filtering, Searching and Sorting Products
+    ![Filter-search-sort](media/readme/features/Filter-search-sort.png)
+    Here on the products related views you can find the filter, searching and sorting functionality of the site. Users have plenty of options to choose from to decide how they would like to browse. The search bar can be found at the top of the page. Search functionality meets the requirements of Shopper User Stories number 8 and 9. You can see a search result below.
+    ![Search-results](media/readme/features/Search-results.png)
 4. View Testimonials
 5. Pop Up Messages 
 
