@@ -288,13 +288,38 @@ Additional colours:
 
 ## Testing
 
+### Manual Testing
+
 ### User Stories
 
-#### Shoppers 
+The user stories defined at the beginning of the project have been tested against the end product of the site. For easy reference, take a look at the following table which lists the user stories and relevant feature that addresses the user needs. 
 
-#### General
-
-#### Admin
+| User Story | Relevant Feature |
+| ---------- | ---------------- |
+| Shopper 1  | UX2              |
+| Shopper 2  | UX2              |
+| Shopper 3  | UX3              |
+| Shopper 4  | EC1              |
+| Shopper 5  | UX3              |
+| Shopper 6  | UX3              |
+| Shopper 7  | UX3              |
+| Shopper 8  | UX3              |
+| Shopper 9  | UX3              |
+| Shopper 10 | EC4              |
+| Shopper 11 | EC1              |
+| Shopper 12 | EC1              |
+| Shopper 13 | EC2              |
+| Shopper 14 | EC2              |
+| Shopper 15 | EC3              |
+| Shopper 16 | EC3              |
+| General 1  | P1               |
+| General 2  | P2               |
+| General 3  | P2               |
+| General 4  | P1               |
+| General 5  | P4/P5            |
+| Admin 1    | A2               |
+| Admin 2    | A3               |
+| Admin 3    | A4               |
 
 ### Validator Testing
 
