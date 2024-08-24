@@ -145,7 +145,7 @@ Additional colours:
 1. Home Page
 
     ![Home-page](media/readme/features/Home-page.png)
-    This is the home page for the site. It has been created with a eye-catching blue colour to fit well with the theme throughout. Here the users can also easily start navigating through the site with lots of options to choose from. On top of the usual navbar options there are 2 call to action buttons, one to entice new users to browse products and the other to look at testimonials.
+    This is the home page for the site. It has been created with a eye-catching blue colour to fit well with the theme throughout. Here the users can also easily start navigating through the site with lots of options to choose from. On top of the usual navbar options there are two call to action buttons, one to entice new users to browse products and the other to look at testimonials.
 
 2. View Products & Product Details
 
@@ -230,18 +230,55 @@ Additional colours:
 
     This is the log in form. The user must enter their Username and Password and submit the form. There is a Remember Me option so the user can store their details for faster access next time. If the user has forgot their password they can click the Forgot Password link. There is a button to go Home if the user doesn't want to log in. This addresses the needs from General User Story 2 and 3.
 
-
+    ![Forgot-password-page](media/readme/features/Password-reset.png)
 
 3. Log Out
+
+    ![Log-out](media/readme/features/Log-out.png)
+
+    Users can log out by clicking the accounts icon and then log out. The log out option is displayed to the user and they have to confirm by clicking the Sign Out button.
+
 4. Profile Page
+
+    ![Profile-page](media/readme/features/Profile-page.png)
+
+    This is the profile page. It gives the user the option to add or update their delivery details to make checkout faster. On the right users can see the order history. This is part of General User Story 5.
+
 5. Order History 
+
+    ![Order-history](media/readme/features/Order-history.png)
+
+    Users can access their order history from their personal profile page. It shows the user any previous orders they've placed; order number, date, products and total cost. Clicking on any of the order numbers will take users to the order confirmation view where they can find a more in depth description. This finalises General User Story 5.
 
 #### Admin Features
 
 1. Accounts
+
+    Admin accounts are available for users from within the organisation. They are able to access more features than typical users such as adding, editing and deleting products. The Product Management section for adding new products can be found in the accounts dropdown list.
+
+    ![Admin-account-dropdown](media/readme/features/Product-management.png)
+
 2. Add Product
+
+    ![Add-product](media/readme/features/Add-product.png)
+
+    This is the add product page for admin users, found in the Product Management section. Here admins can add new products to the site for customers to buy. Required fields are indicated by an asterix. This was requested by the store in Admin User Story 1.
+
 3. Edit Product
+
+    ![Edit-product](media/readme/features/Admin-products-edit.png)
+
+    The ability to edit products is found within the products and product detail pages. These links only show for admin users. If the admin clicks the edit products it opens a form where they can change the data in any of the fields and save changes if they wish. This meets the needs from Admin User Story 2. See below.
+
+    ![Edit-form](media/readme/features/Edit-product.png)
+
 4. Delete Product 
+
+    ![Delete-product](media/readme/features/Delete-product.png)
+
+    The ability to delete products is found within the products and product detail pages. These links only show for admin users. If the admin clicks Delete it removes the item from the site. They will be shown a pop up message to confirm that the product has been deleted. This meets the needs from Admin User Story 3. See below.
+
+    ![Delete-message](media/readme/features/Successfully-deleted.png)
 
 ### Possible Future Features
 
