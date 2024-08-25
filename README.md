@@ -136,6 +136,34 @@ Additional colours:
 
 #### Wireframes
 
+##### Home
+
+![Home-wireframe](media/readme/wireframes/Home-wireframe.png)
+
+##### Products
+
+![Products-wireframe](media/readme/wireframes/Products-wireframe.png)
+
+##### Product Details
+
+![Product-details-wireframe](media/readme/wireframes/Product-details-wireframe.png)
+
+##### Bag
+
+![Bag-wireframe](media/readme/wireframes/Bag-wireframe.png)
+
+##### Checkout
+
+![Checkout-wireframe](media/readme/wireframes/Checkout-wireframe.png)
+
+##### Profile
+
+![Profile-wireframe](media/readme/wireframes/Profile-wireframe.png)
+
+##### Testimonials
+
+![Testimonials-wireframe](media/readme/wireframes/Testimonials-wireframe.png)
+
 ## Features
 
 ### Existing Features
