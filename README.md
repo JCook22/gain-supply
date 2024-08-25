@@ -321,6 +321,10 @@ The user stories defined at the beginning of the project have been tested agains
 | Admin 2    | A3               |
 | Admin 3    | A4               |
 
+EC = E-Commerce
+P = Profile
+A = Admin
+
 ### Validator Testing
 
 * **HTML**: 
