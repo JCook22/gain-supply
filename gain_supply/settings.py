@@ -3,11 +3,9 @@ import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = (
-    'django-insecure-)sw&rzu=tgo6zybk63=*gxj)r!t&_bdz=!6&3_ol(!^jomrmg%'
-)
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     'gain-supply.herokuapp.com',
