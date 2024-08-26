@@ -1,0 +1,1 @@
+web: gunicorn gain_supply.wsgi:application
