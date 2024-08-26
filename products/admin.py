@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Category, Product
 
+
 class ProductAdmin(admin.ModelAdmin):
     """
     Adds products to admin panel
@@ -16,6 +17,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ("sku",)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     """
     Adds Categories to admin panel
@@ -24,6 +26,7 @@ class CategoryAdmin(admin.ModelAdmin):
         "friendly_name",
         "name",
     )
+
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Product, ProductAdmin)

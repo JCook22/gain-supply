@@ -7,7 +7,7 @@ from .models import Product, Category
 from .forms import ProductForm
 
 
-def all_products(request): 
+def all_products(request):
     """
     Shows the user all products and allows them to sort or filter them
     """
@@ -43,37 +43,39 @@ def all_products(request):
                 messages.error(request, "The search bar cannot be empty.")
                 return redirect(reverse('products'))
 
-            queries  = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        'products' : products,
-        'search_term' : query,
+        'products': products,
+        'search_term': query,
         'current_categories': categories,
-        'current_sorting' : current_sorting,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'products/products.html', context)
 
 
-def product_detail(request, product_id): 
+def product_detail(request, product_id):
     """
     Shows the user the details of a selected product
     """
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
-        'product' : product,
+        'product': product,
     }
 
-    return render(request, 'products/product_detail.html', context)
+    return render(request,
+                  'products/product_detail.html', context)
 
 
 @login_required
 def add_product(request):
-    """ 
+    """
     Allows admin users to add new products to site
     """
     if not request.user.is_superuser:
@@ -84,10 +86,13 @@ def add_product(request):
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()
-            messages.success(request, 'Product added to database successfully.')
+            messages.success(request,
+                             'Product added to database successfully.')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Attempt to add product has failed! Please check the form data for errors.')
+            messages.error(request,
+                           'Attempt to add product has failed! '
+                           'Please check the form data for errors.')
     else:
         form = ProductForm()
     template = 'products/add_product.html'
@@ -99,7 +104,7 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ 
+    """
     Allows admin users to edit products on the site
     """
     if not request.user.is_superuser:
@@ -111,11 +116,15 @@ def edit_product(request, product_id):
         form = ProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
             form.save()
-            messages.success(request, 'You have succesfully updated the product.')
-            return redirect(reverse('product_detail', args=[product.id]))
+            messages.success(request,
+                             'You have succesfully updated the product.')
+            return redirect(
+                reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Attempt to edit product has failed! Please check the form data for errors.')
-    else:   
+            messages.error(request,
+                           'Attempt to edit product has failed! '
+                           'Please check the form data for errors.')
+    else:
         form = ProductForm(instance=product)
         messages.info(request, f'You have chosen to edit {product.name}')
 
@@ -129,13 +138,13 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ 
+    """
     Allows admin users to delete products on the site
     """
     if not request.user.is_superuser:
         messages.error(request, 'You are not authorised to do that.')
         return redirect(reverse('home'))
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product successfully deleted.')
