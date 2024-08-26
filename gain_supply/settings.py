@@ -10,8 +10,7 @@ SECRET_KEY = (
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-jcook22-gainsupply-8pesxq3ljxs.ws.codeinstitute-ide.net'
-    ]
+    'gain-supply.herokuapp.com', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -96,7 +95,10 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'gain_supply.wsgi.application'
 
-
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.sqlite3',
