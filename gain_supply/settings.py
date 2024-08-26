@@ -10,7 +10,8 @@ SECRET_KEY = (
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'gain-supply.herokuapp.com', 'localhost']
+    'gain-supply.herokuapp.com',
+    'localhost', 'gain-supply-fc0e55b8b77f.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
