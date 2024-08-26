@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -12,6 +14,7 @@ from bag.contexts import bag_contents
 
 import stripe
 import json
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -31,6 +34,7 @@ def cache_checkout_data(request):
         messages.error(request, 'Unfortunately we were not able \
             to process your payment. Please try again later.')
         return HttpResponse(content=e, status=400)
+
 
 def checkout(request):
     """
@@ -78,21 +82,22 @@ def checkout(request):
                                 quantity=quantity,
                                 product_size=size,
                             )
-                            order_line_item.save()    
+                            order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "Oops! One of the products cannot be found in our database."
+                        "Oops! One of the products could not be found."
                         "Please call us if you require assistance.")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(
+                reverse('checkout_success', args=[order.order_number]))
         else:
-            messages.error(request, 'There was an error with your form.  \
-                Please double check the information you have entered.')        
-    else: 
+            messages.error(request, 'There was an error with your form. \
+                Please double check the information you have entered.')
+    else:
         bag = request.session.get('bag', {})
         if not bag:
             messages.error(request, "You haven't added any products yet.")
@@ -124,7 +129,7 @@ def checkout(request):
                 order_form = Orderform()
         else:
             order_form = Orderform()
-        
+
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing.  \
             Did you forget to set your environment variables?')
