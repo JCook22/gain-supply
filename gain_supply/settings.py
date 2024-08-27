@@ -1,5 +1,7 @@
 import os
 import dj_database_url
+if os.path.exists("env.py"):
+    import env
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -8,8 +10,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
-    'gain-supply.herokuapp.com',
-    'localhost', 'gain-supply-fc0e55b8b77f.herokuapp.com']
+    'gain-supply.herokuapp.com', 'localhost',
+    'gain-supply-fc0e55b8b77f.herokuapp.com',
+    '8000-jcook22-gainsupply-8pesxq3ljxs.ws.codeinstitute-ide.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
