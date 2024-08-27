@@ -151,7 +151,7 @@ if 'USE_AWS' in os.environ:
     }
 
     AWS_STORAGE_BUCKET_NAME = 'gain-supply'
-    AWS_S3_REGION_NAME = 'us-east-1'
+    AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.sw.amazonaws.com'
