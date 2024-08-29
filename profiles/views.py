@@ -18,7 +18,9 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated succesfully')
         else:
-            messages.error(request, 'Attempt to update profile has failed! Please check the form data for errors.')
+            messages.error(request,
+                           'Attempt to update profile has failed!'
+                           'Please check the form data for errors.')
 
     form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -34,7 +36,7 @@ def profile(request):
 
 @login_required
 def order_history(request, order_number):
-    """ 
+    """
     Displays to the user a list of their previous orders if they have any
     """
     order = get_object_or_404(Order, order_number=order_number)
@@ -48,4 +50,3 @@ def order_history(request, order_number):
         'from_profile': True,
     }
     return render(request, template, context)
-    
