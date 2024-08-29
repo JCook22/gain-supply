@@ -12,7 +12,8 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     'gain-supply.herokuapp.com', 'localhost',
     'gain-supply-fc0e55b8b77f.herokuapp.com',
-    '8000-jcook22-gainsupply-8pesxq3ljxs.ws.codeinstitute-ide.net']
+    '8000-jcook22-gainsupply-8pesxq3ljxs.ws.codeinstitute-ide.net',
+    '8000-jcook22-gainsupply-jae7zl78a08.ws-eu115.gitpod.io']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
