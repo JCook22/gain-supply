@@ -312,4 +312,8 @@ a.category-badge > span.badge:hover {
         font-size: .75rem;
         padding: .375rem .375rem;
     }
+
+    .container.mb-2 {
+        width: 100% !important;
+    }
 }
