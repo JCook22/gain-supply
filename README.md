@@ -529,7 +529,13 @@ A = Admin
 
 * **Python**:  All Python files above have been tested for PEP8 using CodeInstitute's [Python-Linter](https://pep8ci.herokuapp.com/#).
 
-### Responsivity and Browser Compatibility 
+### Responsivity and Browser Compatibility
+
+### Accessibility Score
+
+Accessibility testing was done using [Accessibilitytest.org](https://accessibilitytest.org/).
+
+![Accessibility-score](media/readme/testing/Accessibility-score.png)
 
 ## Technologies
 
