@@ -166,6 +166,12 @@ Additional colours:
 
 ## Features
 
+### Database Model
+
+![Database-model](media/readme/features/databasemodel.png)
+
+This is the database model. The two non-related databases are Testimonials (covered in detail in features) and the employee profile database. The Employee Profile database is only there for admin users so they can store information on other employees should they ever need it. This would be useful for having somewhere to find contact details in the case of any emergencies.
+
 ### Existing Features
 
 #### UX Features
