@@ -531,6 +531,12 @@ A = Admin
 
 ### Responsivity and Browser Compatibility
 
+I tested the site on a variety of different browsers:
+
+- Chrome
+- Firefox
+- Edge
+
 ### Accessibility Score
 
 Accessibility testing was done using [Accessibilitytest.org](https://accessibilitytest.org/).
