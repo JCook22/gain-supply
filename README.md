@@ -453,13 +453,75 @@ A = Admin
 
 ### Validator Testing
 
-* **HTML**: 
+| Gain-supply        |        |                                  |        |              |        |                    |        |
+| ------------------ | ------ | -------------------------------- | ------ | ------------ | ------ | ------------------ | ------ |
+| Python             | Result | HTML                             | Result | CSS          | Result |                    |        |
+| settings.py        | PASS   | base.html                        | PASS   | base.css     | PASS   |                    |        |
+| urls.py            | PASS   | 403.html                         | PASS   |              |        |                    |        |
+| views.py           | PASS   | 404.html                         | PASS   |              |        |                    |        |
+|                    |        | 405.html                         | PASS   |              |        |                    |        |
+|                    |        | 500.html                         | PASS   |              |        |                    |        |
+|                    |        | toast_error.html                 | PASS   |              |        |                    |        |
+|                    |        | toast_info.html                  | PASS   |              |        |                    |        |
+|                    |        | toast_warning.html               | PASS   |              |        |                    |        |
+|                    |        | toast_success.html               | PASS   |              |        |                    |        |
+|                    |        | main-nav.html                    | PASS   |              |        |                    |        |
+|                    |        | mobile-header.html               | PASS   |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Bag                |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result |              |        |                    |        |
+| contexts.py        | PASS   | bag.html                         | PASS   |              |        |                    |        |
+| urls.py            | PASS   |                                  |        |              |        |                    |        |
+| views.py           | PASS   |                                  |        |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Checkout           |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result | CSS          | Result | JS                 | Result |
+| admin.py           | PASS   | checkout_success.html            | PASS   | checkout.css | PASS   | stripe_elements.js | PASS   |
+| apps.py            | PASS   | checkout.html                    | PASS   |              |        |                    |        |
+| forms.py           | PASS   |                                  |        |              |        |                    |        |
+| models.py          | PASS   |                                  |        |              |        |                    |        |
+| signals.py         | PASS   |                                  |        |              |        |                    |        |
+| urls.py            | PASS   |                                  |        |              |        |                    |        |
+| views.py           | PASS   |                                  |        |              |        |                    |        |
+| webhook_handler.py | PASS   |                                  |        |              |        |                    |        |
+| webhooks.py        | PASS   |                                  |        |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Home               |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result |              |        |                    |        |
+| urls.py            | PASS   | index.html                       | PASS   |              |        |                    |        |
+| views.py           | PASS   |                                  |        |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Products           |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result |              |        |                    |        |
+| admin.py           | PASS   | custom_clearable_file_input.html | PASS   |              |        |                    |        |
+| forms.py           | PASS   | quantity_input_script.html       | PASS   |              |        |                    |        |
+| models.py          | PASS   | add_product.html                 | PASS   |              |        |                    |        |
+| urls.py            | PASS   | edit_product.html                | PASS   |              |        |                    |        |
+| views.py           | PASS   | product_detail.html              | PASS   |              |        |                    |        |
+| widgets.py         | PASS   | products.html                    | PASS   |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Profiles           |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result | CSS          | Result | JS                 | Result |
+| admin.py           | PASS   | profile.html                     | PASS   | profile.css  | PASS   | countryfield.js    | PASS   |
+| forms.py           | PASS   |                                  |        |              |        |                    |        |
+| models.py          | PASS   |                                  |        |              |        |                    |        |
+| urls.py            | PASS   |                                  |        |              |        |                    |        |
+| views.py           | PASS   |                                  |        |              |        |                    |        |
+|                    |        |                                  |        |              |        |                    |        |
+| Testimonials       |        |                                  |        |              |        |                    |        |
+| Python             | Result | HTML                             | Result |              |        |                    |        |
+| admin.py           | PASS   | testimonials.html                | PASS   |              |        |                    |        |
+| models.py          | PASS   |                                  |        |              |        |                    |        |
+| urls.py            | PASS   |                                  |        |              |        |                    |        |
+| views.py           | PASS   |                                  |        |              |        |                    |        |
 
-* **CSS**: 
+* **HTML**: All HTML pages listed above have been tested on the [WC3-Validator](https://validator.w3.org/).
 
-* **JS**:
+* **CSS**: All CSS files listed above have also been tested using the [WC3-Validator](https://validator.w3.org/).
 
-* **Python**: 
+* **JS**: All JS files listed above have been tested using [JSHint](https://jshint.com/).
+
+* **Python**:  All Python files above have been tested for PEP8 using CodeInstitute's [Python-Linter](https://pep8ci.herokuapp.com/#).
 
 ### Responsivity and Browser Compatibility 
 
