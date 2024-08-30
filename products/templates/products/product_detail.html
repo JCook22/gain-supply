@@ -75,27 +75,28 @@
                                             </button>
                                         </div>
                                         <input type="number" class="form-control qty_input id_qty_{{ product.id }}" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}">
-                                    <div class="input-group-append">
-                                        <button class="increment-qty btn btn-outline-black btn-blue rounded-0 increment-qty_{{ product.id }}" data-item_id="{{ product.id }}">
-                                            <span class="icon">
-                                                <i class="fas fa-plus"></i>
-                                            </span>
-                                        </button>
-                                    <div>  
+                                        <div class="input-group-append">
+                                            <button class="increment-qty btn btn-outline-black btn-blue rounded-0 increment-qty_{{ product.id }}" data-item_id="{{ product.id }}">
+                                                <span class="icon">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col{% if s %}-12 mt-2{% endif %}">
+                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                                    <span class="icon">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span>Keep Shopping</span>
+                                </a>
+                                <input type="submit" class="btn btn-blue btn-outline-black rounded-0 mt-5" value="Add To Shopping Bag">
+                            </div>
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            {% endwith %}
                         </div>
-                        <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span>Keep Shopping</span>
-                            </a>
-                            <input type="submit" class="btn btn-blue btn-outline-black rounded-0 mt-5" value="Add To Shopping Bag">
-                        </div>
-                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                        {% endwith %}
                     </form>
                 </div>
             </div>
