@@ -565,9 +565,28 @@ HTML, CSS, JavaScript, Python
 
 ### Deploying this repository
 
-### Cloning this repository
+Heroku was used to deploy this project. This guide will assume you have already signed up and logged in. Find the 'New' button near the top right of the dashboard, clicking on it should present you with the abiity to 'Create new app'. Choose the most relevant region and give it a unique name, then click 'Create app'.
 
-### Forking this repository
+Now that you have an app created, navigate to the 'Settings' tab. Scroll down till your reach the Config Vars section and click on 'Reveal config vars'. You will need to add the following variables:
+- DATABASE_URL (postgres)
+- SECRET_KEY
+- STRIPE_PUBLIC_KEY
+- STRIPE_SECRET_KEY
+- STRIPE_WH_SECRET
+- USE_AWS = True
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- EMAIL_HOST_PASS
+- EMAIL_HOST_USER
+Once you have added the variables with your own personal keys, don't forget to create a env.py file in the workspace and copy them there.
+
+Finally to deploy the project navigate to the 'Deploy' tab back on Heroku. There are multiple methods to choose but we selected to deploy from Github. Enter the repository name in the search bar and connect to it. You should be able to choose whether to update the app manually or automatically with every push to github. When the build is ready you can open the app from the dashboard.
+
+### Cloning or Forking this repository
+
+To save a personal copy of the code should you want to work on it yourself, you can fork the repository on Github. Navigate to the repository on Github, then locate the 'Fork' option to the right of the repository name. Clicking this will create a new fork repository for you.
+
+If you wish to clone the repository you have two options, found in the green 'Code' button drop down options. You can copy the url provided and create a new repository from that url. The other option is to download the repository as a ZIP file so you are able to run it locally.
 
 ## Credits
 
