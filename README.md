@@ -1,5 +1,7 @@
 # GAIN Supply
 
+Link to the deployed project: https://gain-supply-fc0e55b8b77f.herokuapp.com/
+
 GAIN Supply is a fitness supplies store. It supplies a range of products from supplements and healthy food to fitness equipment. It will be beneficial to customers as it aims to provide a convenient place to find all of the supplies they need, rather than shop through multiple different sites. Users will be able to create profiles, storing their shipping information if they choose to and view their order history. Admin users can add, edit and delete products. Admins can also add to customer testimonials or remove them from the testimonials page.
 
 ## Table of Contents
