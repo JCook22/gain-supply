@@ -557,7 +557,7 @@ HTML, CSS, JavaScript, Python
 - Google Fonts - Used to import fonts.
 - Font Awesome - Used to import icons.
 - Chrome Developer Tools - Used to test site responsiveness and design features.
-- Materialize CSS - Used to speed up the design of the site.
+- Bootstrap CSS - Used to speed up the design of the site.
 - Django - Used to streamline the process of creating the site.
 - Stripe - Used for handling payments.
 
@@ -574,12 +574,14 @@ HTML, CSS, JavaScript, Python
 ### Content
 
 - All clothing products for this site have been gathered from: https://www.adidas.co.uk/.
-- All supplements and healthy snacks for this site have been gathered from: https://uk.esn.com/. 
+- All supplements and healthy snacks for this site have been gathered from: https://uk.esn.com/.
+- All weights and supplement products have been gathered from: https://www.fitness-superstore.co.uk/.
 
 ### Media
 
 - All clothing product images for this site have been gathered from: https://www.adidas.co.uk/.
-- All supplements and healthy snacks images for this site have been gathered from: https://uk.esn.com/. 
+- All supplements and healthy snacks images for this site have been gathered from: https://uk.esn.com/.
+- All weights and supplement products for this site have gathered from: https://www.fitness-superstore.co.uk/. 
 
 ### Code
 
